@@ -1,0 +1,15 @@
+Ficha 7 - Algortimos de Pesquisa no Espaço de Soluções
+-------------------------------------------
+Trepa-Colinas
+-------------------------------------------
+1) Representação de uma solução? 
+	- Letras |A|C|H|G| (vale 5 = tamanho) -> caminho de A a G
+	- Bits |1_|0_|1_|1_|1_| = 5
+                A  B   C  H  G
+- há soluções inválidas?
+
+2) Avaliação de uma solução: custo
+
+3) Como gerar novas soluções?
+Trepa-Colinas:vizinhança -> Trocar 2 cidades |1_|0_|1_|1_|1_| (trocar) -> |1_|1_|1_|0_|1_|
+			 -> Alterar 1 cidade |1_|0_|1_|1_|1_|          -> |1_|0_|0_|1_|1_|
